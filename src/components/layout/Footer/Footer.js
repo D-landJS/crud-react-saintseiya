@@ -19,12 +19,17 @@ const Footer = () => {
 
 			<MenuBar>
 				<MenuItem>
-					<MenuItemLink>About</MenuItemLink>
+					<MenuItemLink
+						href="https://github.com/D-landJS/crud-react-saintseiya"
+						target="_blank"
+					>
+						ABOUT PROJECT
+					</MenuItemLink>
 					<MenuItemLink
 						href="https://personal-project-d-landjs.netlify.app/"
 						target="_blank"
 					>
-						About THE CRUD DEVELOPER
+						ABOUT THE CRUD DEVELOPER
 					</MenuItemLink>
 				</MenuItem>
 			</MenuBar>
@@ -32,7 +37,10 @@ const Footer = () => {
 			<MenuSocial>
 				<TitleSocial>SOCIAL MEDIA</TitleSocial>
 				<MenuSocialLinks>
-					<IconLinks href="/" target="_blank">
+					<IconLinks
+						href="https://github.com/D-landJS/crud-react-saintseiya"
+						target="_blank"
+					>
 						<FaGithub />
 					</IconLinks>
 					<IconLinks
