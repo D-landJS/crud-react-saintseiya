@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+input[type='text'] {
+	/* Display & Box-model */
+	display: block;
+	width: 50%;
+	padding: 0.77rem;
+	margin-bottom: 1rem;
+	/* Typography */
+	font-size: 1rem;
+	line-height: 1rem;
+	color: #fff;
+	/* Visual */
+	background-color: transparent;
+	border: thin solid #dedede;
+	border-radius: 0.25rem;
+	outline: none;
+}
+
+button,
+input[type='submit'] {
+	/* Display & Box-model */
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	margin: 0 0.5rem 0 0;
+	/* Typography */
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 1;
+	color: #444;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	/* Visual */
+	background-color: #eee;
+	border: thin solid #dedede;
+	border: thin solid #444;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+form {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Crud Api */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th,
+td {
+	padding: 0.5rem;
+	text-align: left;
+	border-bottom: thin solid #dedede;
+}
+
+.main {
+	background-image: linear-gradient(-180deg, rgb(0, 0, 0), rgb(7, 14, 86));
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	justify-items: center;
+	align-items: center;
+	min-height: 70vh;
+}
+
+.error404 {
+	background-image: linear-gradient(-180deg, rgb(0, 0, 0), rgb(7, 14, 86));
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	gap: 30px;
+}
+
+.error404 img {
+	width: 50%;
+}
+
+.error404 h1 {
+	color: #fff;
+	font-size: 20px;
+}
+
+.error_button a {
+	color: #dc4;
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
+}
+
+.error_button a:hover {
+	color: #9b913c;
+}
+
+.wrapper {
+	padding: 2rem;
+	background: #191654;
+	color: #fff;
+	min-height: 70vh;
+}
+
+.wrapper > h3 {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+.crudform {
+	width: 100%;
+}
+
+.crudform > h3 {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.description {
+	margin-left: 5rem;
+	color: #fff;
+}
+
+.description > h2 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.description > p {
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+}
+
+.description ol li {
+	margin-bottom: 0.677rem;
+}
+
+.image-container > img {
+	width: 100%;
+}
+
+. {
+}
+
+@media screen and (min-width: 1024px) {
+	.grid-1-2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: start;
+		gap: 2rem;
+	}
+}
+
+@media screen and (max-width: 968px) {
+	.wrapper {
+		height: auto;
+	}
+	.crudform {
+		margin-bottom: 2rem;
+	}
+}
+
+.active {
+	color: red;
+}
