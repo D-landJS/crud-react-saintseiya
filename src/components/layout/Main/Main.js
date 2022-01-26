@@ -11,8 +11,8 @@ const Main = () => {
 					<li>La segunda use JSON Server</li>
 					<li>La tercera use Router</li>
 					<li>La cuarta use Context</li>
-					<li>La cuarta use Reducers</li>
-					<li>La cuarta use Redux</li>
+					<li>La quinta use Reducers</li>
+					<li>La sexta use Redux</li>
 				</ol>
 			</div>
 			<div className="image-container">
